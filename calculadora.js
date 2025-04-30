@@ -8,3 +8,12 @@ function sumar(a, b) {
 
   console.log(sumar(2,3));
   console.log(restar(2,3));
+
+  function multiplicar(a, b) {
+    return a * b;
+  }
+  
+  function dividir(a, b) {
+    if (b === 0) throw new Error("División por cero");
+    return a / b;
+  }
