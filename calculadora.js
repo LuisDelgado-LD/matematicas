@@ -6,5 +6,5 @@ function sumar(a, b) {
     return a - b;
   }
 
-  sumar(2,3)
-  restar(2,3)
+  console.log(sumar(2,3));
+  console.log(restar(2,3));
